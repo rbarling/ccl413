@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c429d693eaf081264bba82d06dcc4db8",
+    "content-hash": "fde9d6850a1126cae29c5617179ea64e",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -2615,6 +2615,29 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "rbarling/moduletest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:rbarling/moduletest.git",
+                "reference": "260996fb3715c6ee3c6bbdfeb475e399dfed5172"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rbarling/moduletest/zipball/260996fb3715c6ee3c6bbdfeb475e399dfed5172",
+                "reference": "260996fb3715c6ee3c6bbdfeb475e399dfed5172",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "silverstripe-module",
+            "description": "An simple test module",
+            "support": {
+                "source": "https://github.com/rbarling/moduletest/tree/master",
+                "issues": "https://github.com/rbarling/moduletest/issues"
+            },
+            "time": "2024-05-07T04:45:47+00:00"
         },
         {
             "name": "sebastian/comparator",

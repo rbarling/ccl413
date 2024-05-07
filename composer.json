@@ -8,7 +8,8 @@
         "silverstripe/recipe-cms": "~4.13.0@stable",
         "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/login-forms": "~4.9.0@stable",
-        "silverstripe/recipe-ccl": "~2"
+        "silverstripe/recipe-ccl": "~2",
+        "rbarling/moduletest": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
@@ -38,6 +39,12 @@
             "silverstripe/vendor-plugin": true
         }
     },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "git@github.com:rbarling/moduletest.git"
+        }
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
